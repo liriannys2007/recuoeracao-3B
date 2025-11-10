@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --Branco: #e7ecefff;
+    --Azul-marino: #274c77ff;
+    --azul-ceu: #6096baff;
+    --Preto: rgb(0, 0, 0);
+    --Titulo:"Oswald", sans-serif;
+    --texto:"Inconsolata", monospace;
+}
+
+body{
+    background-color: var(--Azul-marino);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    color: var(--Branco);
+}
+header{
+    background-color: var(--azul-ceu);
+    padding: 20px;
+    text-align: center;
+    color: var(--Preto);
+    font-family: var(--Titulo);
+}
